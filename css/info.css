@@ -1,0 +1,25 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+.conten{
+    background-color: #4181f5;
+    color: white;
+    margin-top: -22px;
+    padding: 40px 20px;
+}
+.conten p{
+    margin: 0px;
+}
+.conten.button{
+    background-image: linear-gradient(180deg, #4181f5, #75F2FA);
+}
+.button img{
+    position: ralative;
+    bottom: 1px;
+    left: 1px;
+}
+.sosal{
+    margin-top: -20px;
+    border: 5px solid red;
+}
