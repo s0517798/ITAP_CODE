@@ -1,4 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+img {
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
 .header{
     background-color: #FEFFF5;
     border-bottom: 1px solid black;
+    line-height: normal;
+}
+.nav.nav-tabs.nav-justified{
+    border-bottom: none;
+    color: black;
+    margin-top: 20px;
+}
+.nav-tabs.nav-justified li a {
+    border-bottom: none;
+    margin: 0;
+}
+.header a{
+    color: black;
+}
+.datthe{
+    margin-top: 15px;
+}
+.datthe a{
+    text-align: right;
+    font-size: 20px;    
+    color: white;
+}
+.datthe a:hover{
+    text-decoration: none;
+    color: #FFD257;
+}
+.datthe p{
+    float: right;   
+    padding: 15px;
+    background-color: #248EFF;
+    border-radius: 35px;
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+
+.drop{
+    background-color: #248EFF;
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer h2{
+    text-align: center;
+}
+.footer a{
+    color: #FEFFF5;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: #FFD257;
+    text-decoration: none;
 }
